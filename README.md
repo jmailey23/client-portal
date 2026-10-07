@@ -2,7 +2,7 @@
 
 A client portal that reads live from the brokerage's CRM, without ever handing the browser the CRM token.
 
-This is the core of a client platform I built and run for an apartment locating brokerage in Dallas, rewritten here as a standalone module with a fictional company (Northline Locating) so the design can be read in public. The production system is private; its numbers are below.
+This is a standalone rebuild of a client platform I built and run for an apartment locating brokerage in Dallas, written the way I would build it today, with a fictional company (Northline Locating) so the design can be read in public. The production system is private; its numbers are below.
 
 ## The idea
 
@@ -35,9 +35,9 @@ flowchart LR
   J -.-> M[Your search is ready]
 ```
 
-## In production
+## The production system
 
-The private system this comes from serves an apartment locating brokerage in Dallas. As of October 5, 2026:
+The private system this rebuild is based on serves an apartment locating brokerage in Dallas. As of October 5, 2026:
 
 - 106 client accounts; signup asks HubSpot whether the email is a known contact before an account is created
 - 91 welcome emails sent by the scheduled function since it went live in June 2026, every one logged
